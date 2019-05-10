@@ -1,0 +1,44 @@
+% This file contains MicrobeTracker settings for algorithm 1 (no active contour). The parameters are created based on C. crescentus cells at resolution 0.06 um/pixel and can also be used for most cell types
+
+algorithm = 1
+
+% Pixel-based parameters
+areaMin = 120
+areaMax = 3000
+thresFactorM = 1
+splitregions = 1
+edgemode = log
+edgeSigmaL = 3
+erodeNum = 1
+opennum = 0
+threshminlevel = 0.02
+
+% Shape parameters
+interpoutline = 0
+interpWeights = 0.5 0.5
+interpSigma = 1 1
+thresFactorF = 1
+fsmooth = Inf
+
+% Mesh parameters
+getmesh = 0
+meshStep = 1
+meshTolerance = 0.01
+
+% Limits on poition / number
+roiBorder = 20.5
+noCellBorder = 5
+maxCellNumber = 2000
+maxRegNumber = 100000
+
+% Joining and splitting
+splitThreshold = 1
+joindist = 5
+joinangle = 0.8
+joinWhenReuse = 0
+split1 = 0
+
+% Other
+bgrErodeNum = 5
+sgnResize = 1
+aligndepth = 1

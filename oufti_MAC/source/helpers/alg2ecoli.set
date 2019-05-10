@@ -1,0 +1,69 @@
+% This file contains MicrobeTracker settings for wildtype E. coli cells at 0.064 um/pixel resolution or other similarly looking cells
+
+algorithm = 2
+scalefactor = 1
+
+% Pixel-based parameters
+areaMin = 150
+areaMax = 1200
+thresFactorM = 1
+thresFactorF = 1
+splitregions = 1
+edgemode = 1
+edgeSigmaL = 1
+erodeNum = 1
+
+% PDM parameters
+scaleFactor = 1
+trainingFile = PDMdataEcoli
+Nkeep = 11
+rigidity = 0.000001
+fitqualitymax = 2
+fsmooth = 16
+fitDisplay1 = 0
+fitConvLevel1 = 0.01
+fitMaxIter1 = 200
+fitStep1 = 1
+fitDisplay = 0
+fitConvLevel = 0.0001
+fitMaxIter = 125
+fitStep = 0.4
+
+% Image force parameters
+forceWeights = 2/3 1/3 0
+dmapThres = 2
+dmapPower = 2
+gradSmoothArea = 0.5
+thresFactorM = 0.95
+thresFactorF = 0.95
+attrCoeff = 0
+repCoeff = 0
+attrCoeff1 = 0
+repCoeff1 = 0
+attrRegion = 4
+repArea = 0.9
+attrPower = 12
+neighRep = 0.5
+
+% Mesh creation parameters
+roiBorder = 20.5
+noCellBorder = 5
+maxmesh = 1000
+maxCellNumber = 2000
+maxRegNumber = 10000
+meshStep = 1
+meshWidth = 11
+meshTolerance = 0.01
+
+% Joining and splitting
+splitThreshold = 0.5
+joindist = 5
+joinangle = 0.8
+joinWhenReuse = 0
+split1 = 0
+
+% Other
+bgrErodeNum = 5
+sgnResize = 1
+aligndepth = 1
+

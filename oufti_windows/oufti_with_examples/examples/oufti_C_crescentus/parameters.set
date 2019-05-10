@@ -1,0 +1,69 @@
+
+%High-throughput
+outCsvFormat = 0
+csvFileEdit = 0
+
+%Parallel Computation
+maxWorkers = 12
+
+%General
+algorithm = subpixel
+invertimage = 0
+interpoutline = 0
+interSigma = 0
+
+
+% Pixel-based parameters
+areaMin = 150
+areaMax = 15000
+splitregions = 1
+displayW = 0
+wShedNum = 5800
+
+%Constraints (alg. subpixel only)
+cellwidth = 11
+wspringconst = 0.2
+rigidity = 1
+rigidityB = 2
+
+% Image forces (alg. subpixel only)
+imageforce = 5
+attrCoeff = 0.1
+repCoeff = 0.9
+neighRep = 8
+attrPower = 6
+
+%Contour fitting (alg. subpixel only)
+fitDisplay = 0
+fitMaxIter = 60
+moveall = 0.1
+fitStep = 0.2
+fitStepM = 1
+fitCondition = 0
+
+
+%Mesh Creation
+fsmooth = 40
+roiBorder = 22.5
+noCellBorder = 1
+meshStep = 1
+getmesh = 1
+
+% Joining and splitting
+splitThreshold = 0.43
+joindist = 5
+joinangle = 0.2
+joindilate = 1
+
+
+%parameters added after Segmentation Module
+edgemode = 1
+erodeNum = 1
+openNum = 3
+invertimage = 0
+thresFactorM = 0.985
+thresFactorF = 0.985
+threshminlevel = 0
+edgeSigmaL = 1
+valleythresh1 = 0.0001
+logthresh = 0

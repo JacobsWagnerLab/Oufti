@@ -1,0 +1,335 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1299461834" file="/home/admininistrator/Desktop/ouftiServer/CandCplusplusFunctions/oufti.prj" location="/home/admininistrator/Desktop/ouftiServer/CandCplusplusFunctions" name="oufti" preferred-package-location="/home/admininistrator/Desktop/ouftiServer/oufti/for_redistribution" preferred-package-type="package.type.install" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>oufti</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>/oufti/</param.installpath.string>
+    <param.installpath.combo>option.installpath.user</param.installpath.combo>
+    <param.logo />
+    <param.install.notes>On the target computer, append the following to your LD_LIBRARY_PATH environment variable (Where {MCR_ROOT} is the directory the MCR has been installed into):&lt;br&gt; {MCR_ROOT}/runtime/glnxa64&lt;br&gt; {MCR_ROOT}/bin/glnxa64&lt;br&gt; {MCR_ROOT}/sys/os/glnxa64&lt;br&gt;{MCR_ROOT}/sys/opengl/lib/glnxa64&lt;br&gt;</param.install.notes>
+    <param.intermediate>/home/admininistrator/Desktop/ouftiServer/oufti/for_testing</param.intermediate>
+    <param.files.only>/home/admininistrator/Desktop/ouftiServer/oufti/for_redistribution_files_only</param.files.only>
+    <param.output>/home/admininistrator/Desktop/ouftiServer/oufti/for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options>-C</param.user.defined.mcr.options>
+    <param.embed.ctf>false</param.embed.ctf>
+    <param.server.ctf>/home/admininistrator/Desktop/ouftiServer/oufti/for_testing/.ctf</param.server.ctf>
+    <param.server.readme>/home/admininistrator/Desktop/ouftiServer/oufti/for_testing/readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.enable.clean.build />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/oufti.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/aip.mexa64</file>
+      <file>${PROJECT_ROOT}/getRigidityForcesL_.mexa64</file>
+      <file>${PROJECT_ROOT}/getRigidityForces_.mexa64</file>
+      <file>${PROJECT_ROOT}/interp2_.mexa64</file>
+      <file>${PROJECT_ROOT}/intxy2C.mexa64</file>
+      <file>${PROJECT_ROOT}/intxyMultiC.mexa64</file>
+      <file>${PROJECT_ROOT}/intxySelfC.mexa64</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_addCell.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_addFieldToCellList.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_addFrame.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_allocateCellList.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_cellId2PositionInFrame.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_doesCellExist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_doesCellHaveContour.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_doesCellStructureHaveMesh.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_doesFrameExist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_getAllCellStructureInFrame.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_getAllCellStructureInFrameForSignalExtraction.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_getCellStructure.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_getCellStructureFast.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_getFrame.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_getFrameLength.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_getLengthOfCellList.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_initializeCellList.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_isCellStructureGood.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_isFrameEmpty.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_isFrameNonEmpty.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_makeCellListCompact.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_makeCellListDouble.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_makeCellListSingle.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_makeNewCellListFromOld.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_makeNewFrameInCellList.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/cellFunctions/oufti_removeCellStructureFromCellList.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/B.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/Bf.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/M.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/align.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/align4.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/align4I.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/align4IM.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/align4Initial.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/align4Manual.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/box2model.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/circShiftNew.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/frdescp.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/getExtForces.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/getnormals.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/getrigidityforces.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/getrigidityforcesL.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/ifdescp.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/interp2a.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/intersections.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/intxy2.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/intxyMulti.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/isContourClockwise.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/isDivided.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/joincells.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/makeccw.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/model2MeshForRefine.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/model2box.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/model2geom.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/model2mesh.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/setdispfiguretitle.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/splitonereg.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/splitted2model.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/contour/spsmooth.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/createdispfigure.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/divisionframe1.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/divisionframe2.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/forcesplitcell.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/forcesplitcellSetsu.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/getextradata.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/processFrameGreaterThanOneTextMode.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/processTextMode.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/extern/updatelineage.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/alignImages.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/checkparam.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/createCellMovie.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/getparamstring.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/objectDetectionVisibility.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/operationButtonsCallFunction.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/ouftiVisibility.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/parseparameters.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/quitMessage.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/removeorientationall.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/reorient.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/reorientall.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/segmentation.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/shiftMovieImages.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/spotFinderVisibility.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/spotViewer/spotViewer.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/gui/writeMovie.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/cellstat.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/checkbformats.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/curvhist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/dispcell.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/dispcellall.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/drawcell.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/edgeforce.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/expandpoly.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/fullfile2.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/gdisp.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/getcurvature.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/integinterp.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/interpoutline.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/inthist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/intprofile.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/kymograph.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/lengthhist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/loadimageseries.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/loadimagestack.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/loci_tools.jar</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/logvalley.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/meaninthist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/meanwidthhist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/plothist.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/projectCurve.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/helpers/projectToMesh.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/microFluidic/cell2csv.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/microFluidic/csv2cell.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/microFluidic/getExtraDataMicroFluidic.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/microFluidic/getExtraDataMultiThread.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/microFluidic/truncateFile.pl</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/RunObjectDetection.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/computeObjectsMultiThread.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/filterIM.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/getObjectDetectionParameters.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/matlabWorkerProcessObjects.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/objectDetection.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/objectDetectionMain.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/pixelOutline.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/sampleOutline.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/objectDetection/subpixelLoGFilter.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/addSignalToFrameParallel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/alignParallel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/graythreshregParallel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/joincellsParallel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/matlabWorkerAddSignalToFrame.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/matlabWorkerJoinCellsParallel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/matlabWorkerProcessCells.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/matlabWorkerProcessIndependentFrames.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/matlabWorkerRefineCells.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/phaseBackground.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/processCellsForFitting.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/processFrameGreaterThanOne.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/processIndependentFrames.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/processIndividualCells.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/processIndividualIndependentFrames.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/refineAllParallel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/parallelFunctions/signalToFrameParallel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/addSignalToFrame.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/findEdges.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getDaughterNum.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getOneSignalC.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getOneSignalContourC.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getOneSignalContourM.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getOneSignalM.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getRegions.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getSegmentation.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/getallchildren.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/graythreshreg.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/img2imge.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/img2imge16.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/initModel.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/mmax.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/mmin.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/phasebgr.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/process.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/processFrameI.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/processFrameOld.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/quantile2.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/savemesh.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/selNewFrame.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/shiftmeshes.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/process/testModeSegment.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/refineAll.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/GaussWin.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/atrouswave.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/bandPassFilter.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/contrastSlider.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/findLocalMaximas.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/fitGaussians.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/getParameters.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/imageFilterAndDisplay.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/matlabWorkerSpotCells.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/peakfinderSpots.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/positionEstimate.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/postProcessingParamWindow.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/processIndividualSpots.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/spotDetection.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/spotDetection/waitbarN.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/cellLengthFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/cellListFilterFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/cellMaxWidthFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/cellMeanWidthFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/cellStatFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/curvatureHistFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/curveGraph.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/demograph.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/demographFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/dispcellAllFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/dispcellFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/exportCellListFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/getLLoCurves.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/growthCurvesFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/growthFitbyOD.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/importCsvFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/intensityHistFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/intensityProfileFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/kymographFcn.m</file>
+      <file>/home/admininistrator/Desktop/ouftiServer/stat/meanIntensityHistFcn.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/admininistrator/Desktop/ouftiServer/oufti/for_testing" name="run_oufti.sh" optional="false">/home/admininistrator/Desktop/ouftiServer/oufti/for_testing/run_oufti.sh</file>
+      <file location="/home/admininistrator/Desktop/ouftiServer/oufti/for_testing" name="splash.png" optional="false">/home/admininistrator/Desktop/ouftiServer/oufti/for_testing/splash.png</file>
+      <file location="/home/admininistrator/Desktop/ouftiServer/oufti/for_testing" name="oufti" optional="false">/home/admininistrator/Desktop/ouftiServer/oufti/for_testing/oufti</file>
+      <file location="/home/admininistrator/Desktop/ouftiServer/oufti/for_testing" name="readme.txt" optional="true">/home/admininistrator/Desktop/ouftiServer/oufti/for_testing/readme.txt</file>
+      <file location="/home/admininistrator/Desktop/ouftiServer/oufti/for_testing" name="oufti.ctf" optional="false">/home/admininistrator/Desktop/ouftiServer/oufti/for_testing/oufti.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/admininistrator/Public</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>3.13.0-24-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

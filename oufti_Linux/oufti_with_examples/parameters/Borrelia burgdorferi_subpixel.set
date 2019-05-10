@@ -1,0 +1,76 @@
+% This file contains Oufti suggested parameters for Borrelia burgdorferi
+%cells at 0.064 um/pixel resolution.
+
+%High-throughput
+outCsvFormat = 0
+csvFileEdit = 0
+runSerial = 0
+
+%Parallel Computation
+maxWorkers = 12
+
+%General
+algorithm = subpixel
+invertimage = 0
+interpoutline = 0
+interSigma = 0
+
+
+% Pixel-based parameters
+areaMin = 1000
+areaMax = 30000
+splitregions = 1
+displayW = 0
+wShedNum = 5800
+
+
+%Constraints (alg. subpixel only)
+cellwidth = 12
+wspringconst = 0.2
+rigidity = 1
+rigidityB = 4
+
+% Image forces (alg. subpixel)
+imageforce = 7
+attrCoeff = 0.25
+repCoeff = 0.9
+neighRep = 8
+attrPower = 8
+
+%Contour fitting (alg. subpixel)
+fitDisplay = 0
+fitMaxIter = 150
+moveall = 0.4
+fitStep = 0.2
+fitStepM = 1
+fitCondition = 0
+
+
+%Mesh Creation
+fsmooth = 240
+roiBorder = 22.5
+noCellBorder = 1
+meshStep = 1
+getmesh = 1
+
+
+% Joining and splitting
+splitThreshold = 0.43
+joindist = 5
+joinangle = 0.2
+joindilate = 1
+
+
+%parameters added after Segmentation Module
+edgemode = 4
+erodeNum = 2
+openNum = 3
+invertimage = 0
+thresFactorM = 0.985
+thresFactorF = 0.985
+threshminlevel = 0
+edgeSigmaL = 1
+valleythresh1 = 0.0001
+valleythresh2 = 0.01
+edgesigmaV = 2.3897
+crossthresh = 0.232

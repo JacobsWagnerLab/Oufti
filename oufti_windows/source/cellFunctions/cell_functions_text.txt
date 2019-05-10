@@ -1,0 +1,17 @@
+%% cellList new structure
+% We needed a new way to store the cellList. It used to grow like nframes
+% squared, which caused big problerms when it exceeded 2 Gb. Saving with
+% -v7.3 was a workaround, but the files then became so huge that loading
+% them took forever. After >500 frames or so the GUI became very
+% unresponsive, tipping the scales toward changing the way cell data is
+% stored internally.
+%
+% The cellList is now comprised of two components:
+% 1) cellId  --  For a given element in meshData, what is the cell id at
+%                    the frame of interest?
+% 2) meshData    --  This stores all the information that used to be in the
+%                    cellList, but without empty elements.
+% Both components are now stored in cellList, which is in turn a structure
+% now:
+% cellList.cellId
+% cellList.meshData

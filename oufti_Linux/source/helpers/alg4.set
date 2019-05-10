@@ -1,0 +1,72 @@
+% This file contains MicrobeTracker settings for filamentous C. crescentus cells, which can also be used for most cell types
+
+algorithm = 4
+
+% Pixel-based parameters
+areaMin = 200
+areaMax = 3000
+thresFactorM = 1
+thresFactorF = 1
+splitregions = 1
+edgemode = logvalley
+edgeSigmaL = 1
+edveSigmaV = 1
+valleythresh1 = 0
+valleythresh2 = 1
+erodeNum = 1
+opennum = 0
+threshminlevel = 0.02
+
+% Constraint parameters
+fmeshstep = 1
+cellwidth = 10
+fsmooth = 40
+imageforce = 4
+wspringconst = 0.5
+rigidityRange = 2.5
+rigidity = 0.4
+rigidityRangeB = 7
+rigidityB = 4
+horalign = 0.2
+eqaldist = 2.5
+
+% Image force parameters
+forceWeights = 0.25 0.5 0.25
+dmapThres = 2
+dmapPower = 2
+gradSmoothArea = 0.5
+attrCoeff = 0.1
+repCoeff = 0.2
+attrRegion = 4
+repArea = 0.9
+attrPower = 4
+neighRep = 0.15
+
+% Fitting parameters
+fitqualitymax = 0.5
+fitConvLevel = 0.0001
+fitMaxIter = 250
+moveall = 0.1
+fitStep = 0.2
+fitStepM = 0.6
+
+% Mesh creation parameters
+roiBorder = 20.5
+noCellBorder = 5
+maxmesh = 1000
+maxCellNumber = 2000
+maxRegNumber = 10000
+meshStep = 1
+meshTolerance = 0.01
+
+% Joining and splitting
+splitThreshold = 1
+joindist = 5
+joinangle = 0.8
+joinWhenReuse = 0
+split1 = 0
+
+% Other
+bgrErodeNum = 5
+sgnResize = 1
+aligndepth = 1

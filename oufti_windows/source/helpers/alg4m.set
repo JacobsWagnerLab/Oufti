@@ -1,0 +1,69 @@
+% This file contains MicrobeTracker settings optimized for MOVING wildtype Pseudomonas aeruginosa cells at 0.085 um/pixel resolution
+
+algorithm = 4
+
+% Pixel-based parameters
+areaMin = 120
+areaMax = 2200
+thresFactorM = 1
+thresFactorF = 1
+splitregions = 1
+edgemode = 1
+edgeSigmaL = 1.5
+erodeNum = 1
+opennum = 0
+
+% Constraint parameters
+fmeshstep = 1
+cellwidth = 12
+fsmooth = 20
+imageforce = 4
+wspringconst = 0.3
+rigidityRange = 2.5
+rigidity = 1
+rigidityRangeB = 8
+rigidityB = 10
+attrCoeff = 1.1
+repCoeff = 0.6
+attrRegion = 4
+horalign = 0.2
+eqaldist = 2.5
+
+% Image force parameters
+forceWeights = 0.25 0.5 0.25
+dmapThres = 2
+dmapPower = 2
+gradSmoothArea = 0.5
+repArea = 0.9
+attrPower = 4
+neighRep = 0.15
+
+% Fitting parameters
+fitqualitymax = 0.5
+fitConvLevel = 0.0001
+fitMaxIter = 750
+moveall = 0.7
+fitStep = 0.2
+fitStepM = 0.6
+
+% Mesh creation parameters
+roiBorder = 20.5
+noCellBorder = 5
+maxmesh = 1000
+maxCellNumber = 2000
+maxRegNumber = 10000
+meshStep = 1
+meshTolerance = 0.01
+
+% Joining and splitting
+splitThreshold = 0.7
+joindist = 5
+joinangle = 0.3
+joinWhenReuse = 0
+split1 = 0
+
+% Other
+bgrErodeNum = 5
+sgnResize = 1
+aligndepth = 1
+
