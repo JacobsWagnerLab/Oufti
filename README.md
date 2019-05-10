@@ -12,6 +12,5 @@ Oufti is an open-source software package designed for analysis of microscopy dat
 * The program itself does not require a MATLAB license and is pre-complied for Windows and Mac environments
 
 Key features are described in:
-  Paintdakhi, Parry et al., Molecular Microbiology (2016) 99(4), 767-777
-  doi: 10.1111/mmi.13264
-  https://onlinelibrary.wiley.com/doi/pdf/10.1111/mmi.13264
+  [Paintdakhi, Parry et al., Molecular Microbiology (2016) 99(4), 767-777](https://onlinelibrary.wiley.com/doi/pdf/10.1111/mmi.13264), doi: 10.1111/mmi.13264
+  
