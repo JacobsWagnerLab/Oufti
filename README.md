@@ -14,3 +14,7 @@ Oufti is an open-source software package designed for analysis of microscopy dat
 Key features are described in:
   [Paintdakhi, Parry et al., Molecular Microbiology (2016) 99(4), 767-777](https://onlinelibrary.wiley.com/doi/pdf/10.1111/mmi.13264), doi: 10.1111/mmi.13264
   
+# Running Oufti from source code using MATLAB
+1. Download correct folder for your operating system (Windows, Mac OS, Linux) that contains the source code
+2. Launch MATLAB and add the downloaded folder and subfolders to path
+3. Launch Oufti by running the command 'oufti' in the command line
